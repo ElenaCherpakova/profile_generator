@@ -22,7 +22,7 @@ rl.question("What's your name? (Nicknames are also acceptable? :)" , (answer) =>
             rl.question("What is your superpower? In a few words, tell us what you are amazing at! ", (answer) => {
               profile.superpower = answer;
               console.log(`Your name (Nickname) is ${profile.name}. You like  ${profile.acitivity}.  While doing that you listen ${profile.music}. 
-              Your favourite (eg: dinner, brunch, etc.) is  ${profile.meal}. Your favourite thing to eat for meal is ${profile.dish}.
+              Your favourite meal (eg: dinner, brunch, etc.) is ${profile.meal}. Your favourite thing to eat for meal is ${profile.dish}.
               Your favourite sport is ${profile.sport}. Your superpower is ${profile.superpower}.`);
               rl.close();
             });
